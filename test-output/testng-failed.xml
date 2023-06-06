@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="google_TestCasesBD.testCases_google">
+        <methods>
+          <include name="testPrivacyLink"/>
+          <include name="testAdvertisingLink"/>
+          <include name="testGoogleAppsMenu"/>
+          <include name="testSearchSuggestions"/>
+          <include name="testTermsLink"/>
+          <include name="testHomePageLoads"/>
+          <include name="testImageSearch"/>
+          <include name="setUp"/>
+          <include name="testSearchFunctionality"/>
+          <include name="tearDown"/>
+          <include name="testLanguageSettings"/>
+          <include name="testSignInButton"/>
+        </methods>
+      </class> <!-- google_TestCasesBD.testCases_google -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
